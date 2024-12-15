@@ -6,11 +6,16 @@ metadata:
   tags:
     - microservice
     - nodejs
+    - kubernetes
   annotations:
     github.com/project-slug: botopsy/node-ms
     backstage.io/techdocs-ref: dir:.
     argocd/app-name: "node-ms"
     backstage.io/kubernetes-id: "node-ms"
+  links:
+    - url: https://github.com/botopsy/node-ms-k8s
+      title: View K8s repo
+      icon: github
 spec:
   type: service
   lifecycle: experimental
