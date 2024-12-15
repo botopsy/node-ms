@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "node-ms"
+  description: "Node Microservice"
+  tags:
+    - microservice
+    - nodejs
+  annotations:
+    github.com/project-slug: botopsy/node-ms
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: "node-ms"
+    backstage.io/kubernetes-id: "node-ms"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:default/vidojeg"

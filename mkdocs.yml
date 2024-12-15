@@ -1,0 +1,8 @@
+site_name: "node-ms"
+site_description: "Node Microservice"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
